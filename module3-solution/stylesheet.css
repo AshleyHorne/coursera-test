@@ -1,0 +1,111 @@
+body {
+	
+
+}
+
+.navbar-brand{
+    font-size: 200%;
+    background-color: grey;
+    width: 99%;
+    padding: 28px;
+    float: left;
+    text-decoration: none;
+    color: black;
+    border-bottom: 3px solid black;
+}
+.dropdown{
+    visibility: hidden;
+}
+
+.s1, .s2 {
+	background-color: grey;
+    width: 98%;
+    padding: 10px;
+    margin: 12px;
+   
+}
+
+h1 {
+    margin-left: 35%;
+    padding: 6%;
+}
+
+
+.foodName1, .foodName2, .foodName3{
+    
+    width: 50%;
+    padding-left: 2%;
+    position: relative;
+    left: 40%;
+    font-size: 130%;
+    
+    
+    
+}
+/*
+.foodName2{
+    background-color: red;
+    color: white;
+    
+}
+
+.foodName1{
+    background-color: pink;
+    
+    
+}
+
+.foodName3{
+    background-color: lightyellow;
+    
+}
+*/ 
+<----------------------------------------------------------------------------MediaQueries----------------------------------------------------------->
+
+<----------------Labtop----------------------------------------------------------->
+
+@media ( min-device-width: 992px ) and ( max-device-width: 1600px ){
+        
+}
+
+
+<----------------tablet----------------------------------------------------------->
+@media screen ( min-device-width: 768px )( max-device-width: 991px ){
+        
+    .foodName1, .foodName2, .foodName3{
+    
+    width: 50%;
+    border: 2px solid black;
+    padding-left: 2%;
+    padding-bottom: 2%;
+    position: relative;
+    top: -34px;
+    left: 50%;
+    font-size: 125%;   
+}
+    div.s1{
+    float: left;
+    width: 43%;
+    
+}
+div.s2{
+    
+    width: 95%;
+    
+}
+         .dropdown{
+    visibility:visible;
+}
+    
+    
+}
+
+<----------------phone----------------------------------------------------------->
+@media screen 
+    and ( max-device-width: 766px ){
+        .dropdown{
+    visibility:visible;
+}
+
+        
+}
