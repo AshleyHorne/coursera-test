@@ -5,17 +5,8 @@ body {
 
 .navbar-brand{
     font-size: 200%;
-    background-color: grey;
-    width: 99%;
-    padding: 28px;
-    float: left;
-    text-decoration: none;
-    color: black;
-    border-bottom: 3px solid black;
 }
-.dropdown{
-    visibility: hidden;
-}
+
 
 .s1, .s2 {
 	background-color: grey;
@@ -26,7 +17,7 @@ body {
 }
 
 h1 {
-    margin-left: 35%;
+    
     padding: 6%;
 }
 
